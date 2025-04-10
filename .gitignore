@@ -1,0 +1,15 @@
+# Virtual Environments
+venv/
+*/venv*/
+notebook/venv-labelme/
+
+# Ignore YOLOv5 submodule
+yolov5/
+
+# System files
+.DS_Store
+
+# Large models or artifacts
+*.pt
+*.pth
+*.onnx
