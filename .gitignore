@@ -1,15 +1,16 @@
-# Virtual Environments
+# Virtual environments
 venv/
 */venv*/
 notebook/venv-labelme/
 
-# Ignore YOLOv5 submodule
-yolov5/
-
 # System files
 .DS_Store
 
-# Large models or artifacts
+# Large model or binary files
 *.pt
-*.pth
 *.onnx
+*.dylib
+*.so
+
+# YOLOv5 (if cloned locally)
+yolov5/
