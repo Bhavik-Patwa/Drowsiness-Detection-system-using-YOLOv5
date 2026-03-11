@@ -5,12 +5,17 @@ notebook/venv-labelme/
 
 # System files
 .DS_Store
+**/.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
 # Large model or binary files
 *.pt
 *.onnx
 *.dylib
 *.so
+*.pth
 
 # YOLOv5 (if cloned locally)
 yolov5/
